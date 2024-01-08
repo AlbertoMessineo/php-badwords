@@ -15,7 +15,7 @@ $badWord = str_replace('word', '*****', $word);
     <form action="info.php" method="POST" id="userform">
         <textarea name='text'rows="4" cols="50" form="userform"> Enter text here...</textarea>
         <br>
-        Parola da censurare: <input method="GET" type="text" name="word" >
+        Parola da censurare: <input method="POST" type="text" name="word" >
         <button>Invia i dati del form</button>
     </form>
 </body>
