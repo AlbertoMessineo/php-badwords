@@ -1,6 +1,6 @@
 <?php
 $string =  $_POST['text'];
-$word = $_GET['word'];
+$word = $_POST['word'];
 $badWord = str_replace('word', '*****', $word);
 ?>
 <!DOCTYPE html>

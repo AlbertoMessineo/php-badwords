@@ -1,5 +1,6 @@
 <?php
     echo $_POST['text'];
+    echo strlen($string);
 ?>
 <br>
 <?php
@@ -9,6 +10,6 @@
 <p>
     La tua parola censurata :
     <?php
-        $badWord;
+        echo $badWord;
     ?>
 </p>
