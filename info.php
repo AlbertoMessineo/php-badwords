@@ -1,4 +1,9 @@
 <?php
+$string =  $_POST['text'];
+$word = $_POST['word'];
+$badWord = str_replace('word', '*****', $word);
+?>
+<?php
     echo $_POST['text'];
     echo strlen($string);
 ?>
@@ -10,6 +15,6 @@
 <p>
     La tua parola censurata :
     <?php
-        echo $badWord;
+        echo $badWord = str_replace('word', '*****', $word);
     ?>
 </p>

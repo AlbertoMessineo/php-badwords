@@ -1,8 +1,4 @@
-<?php
-$string =  $_POST['text'];
-$word = $_POST['word'];
-$badWord = str_replace('word', '*****', $word);
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
